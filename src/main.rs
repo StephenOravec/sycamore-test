@@ -1,10 +1,10 @@
 use sycamore::prelude::*;
-use sycamore::web::Html;
 
 #[component]
-fn App<G: Html>() -> View<G> {
+fn App() -> View {
     view! {
         h1 { "Hello from Rust + Sycamore + WebAssembly!" }
+        p { "This is a test." }
     }
 }
 
